@@ -1,0 +1,50 @@
+pcf
+* control data
+             restart          estimation
+         3        21         1         0         1
+         2         1              single               point         1
+   2.000000E+01  -3.000000E+00   3.000000E-01   1.000000E-02        -7
+   1.000000E+01   1.000000E+01   1.000000E-03
+   1.000000E-01
+        10   1.000000E-02         3         3   1.000000E-02         3
+         0         0         0
+* singular value decomposition
+         1
+  10000000    1.000000E-06
+1
+* parameter groups
+pargp                  relative              1.0000000000E-02      0.0 switch                2.0000000000E+00      parabolic             1.0000000000E-05      5.0000000000E-01      smaller              
+* parameter data
+hk1                   log                   factor                1.0000000000E+00      1.0000000000E-02      5.0000000000E+00      pargp                 1.0000000000E+00      0.0000000000E+00      1          
+ss                    log                   factor                1.0000000000E-07      1.0000000000E-08      1.0000000000E-03      pargp                 1.0000000000E+00      0.0000000000E+00      1          
+sy                    log                   factor                1.0000000000E-01      1.0000000000E-05      3.0000000000E-01      pargp                 1.0000000000E+00      0.0000000000E+00      1          
+* observation groups
+obgnme               
+* observation data
+w1006_head_01         0.0000000000E+00      1.0000000000E+00      obgnme               
+w1006_head_02         -1.9095000000E-02     5.0000000000E+00      obgnme               
+w1006_head_03         -2.4738000000E-02     5.0000000000E+00      obgnme               
+w1006_head_04         -3.8583000000E-02     5.0000000000E+00      obgnme               
+w1006_head_05         -4.4422999999E-02     5.0000000000E+00      obgnme               
+w1006_head_06         -5.4725000000E-02     5.0000000000E+00      obgnme               
+w1006_head_07         -6.5486000000E-02     5.0000000000E+00      obgnme               
+w1006_head_08         -7.5591000000E-02     5.0000000000E+00      obgnme               
+w1006_head_09         -8.4645999999E-02     5.0000000000E+00      obgnme               
+w1006_head_10         -9.7769000000E-02     5.0000000000E+00      obgnme               
+w1006_head_11         -1.0741500000E-01     5.0000000000E+00      obgnme               
+w1006_head_12         -9.3373000000E-02     1.0000000000E+00      obgnme               
+w1006_head_13         -9.3045000000E-02     1.0000000000E+00      obgnme               
+w1006_head_14         -9.2323000000E-02     1.0000000000E+00      obgnme               
+w1006_head_15         -9.1667000000E-02     1.0000000000E+00      obgnme               
+w1006_head_16         -9.1141999999E-02     1.0000000000E+00      obgnme               
+w1006_head_17         -9.1273000000E-02     1.0000000000E+00      obgnme               
+w1006_head_18         -9.1206999999E-02     1.0000000000E+00      obgnme               
+w1006_head_19         -9.1273000000E-02     1.0000000000E+00      obgnme               
+w1006_head_20         -9.0486000000E-02     1.0000000000E+00      obgnme               
+w1006_head_21         -9.0617000000E-02     1.5000000000E+01      obgnme               
+* model command line
+run.bat
+* model input/output
+rvt_ssma-2.1.npf.tpl rvt_ssma-2.1.npf
+rvt_ssma-2.1.sto.tpl rvt_ssma-2.1.sto
+w1006-2.1.post.csv.ins w1006-2.1.post.csv
