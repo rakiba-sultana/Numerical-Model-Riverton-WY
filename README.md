@@ -1,1 +1,1 @@
-# Numerical-Model-Riverton-WY
+# Numercial model input files : MODFLOW6
